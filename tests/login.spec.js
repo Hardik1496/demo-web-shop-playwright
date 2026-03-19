@@ -7,7 +7,7 @@ test('First Login Test', async function({page})
     const email = page.locator('#Email');
     const password = page.locator('#Password');
     const logout = page.getByRole('link', {name: "Log out"});
-    const emailid = 'sidtest@yopmail.com';
+    const emailid = 'hardikvaghela@yopmail.com';
     const quantity = '3';
  
  

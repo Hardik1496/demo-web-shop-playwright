@@ -23,7 +23,7 @@ test('First Login Test', async function({page})
     const password = page.locator('#Password');
     const logout = page.getByRole('link', {name: "Log out"});
     const emailid = 'vaghelahardik140896@gmail.com';
-    const quantity = '5';
+    const quantity = '7';
  
  
     // ============================================================
